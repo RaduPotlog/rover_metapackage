@@ -2,16 +2,16 @@ repositories:
   rover_description:
     type: git
     url: https://github.com/RaduPotlog/rover_description
-    version: df59da5d5fb5acf4d0c180cd584e97c879afc4d0
+    version: main
   rover_controllers:
     type: git
     url: https://github.com/RaduPotlog/rover_controller
-    version: e4c2a4e4c9e3f8c2bef708b51b2e3869045b2873
+    version: main
   rover_gazebo:
     type: git
     url: https://github.com/RaduPotlog/rover_gazebo
-    version: 59ea791c703955153b8cea8ab7565cf4ca25b6a7
+    version: main
   rover_world:
     type: git
     url: https://github.com/RaduPotlog/rover_world
-    version: 3d9df499e0741865b1de0faf0800ffcdf33705dd
+    version: main
