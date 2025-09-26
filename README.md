@@ -14,11 +14,13 @@ git clone -b main https://github.com/RaduPotlog/rover_metapackage.git src/rover_
 
 ### Setup environment variables
 
-Real rover:
+#### Real rover:
 
+```bash
 export ROVER_ROS_BUILD_TYPE=hardware
+```
 
-Simulation:
+#### Simulation:
 
 ```bash
 export ROVER_ROS_BUILD_TYPE=simulation
@@ -41,13 +43,13 @@ source install/setup.bash
 
 ### Running
 
-Real rover:
+#### Real rover:
 
 ```bash
 ros2 launch rover_bringup rover_bringup.launch.py
 ```
 
-Simulation:
+#### Simulation:
 
 ```bash
 ros2 launch rover_gazebo simulation.launch.py
@@ -55,12 +57,12 @@ ros2 launch rover_gazebo simulation.launch.py
 
 ### Rviz:
 
-Real rover:
+#### Real rover:
 
-![Robot Model](images/rover_real_imu.png.png)
+![Robot Model](images/rover_real_imu.png)
 
 ### Gazebo
 
-Simulation:
+#### Simulation:
 
 ![Robot Model](images/rover_simulation_imu.png)
