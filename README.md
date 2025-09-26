@@ -1,6 +1,6 @@
 # rover_metapackage
 
-ROS 2 Metapackage composing basic functionalities of the Mechatronics Academy rover with VCS Tool yaml files directing to external robot dependencies.
+ROS 2 Metapackage composing basic functionalities of the Mechatronics Academy rover with VCS Tool yaml files directing to external rover dependencies.
 
 ## Quick start
 
@@ -16,6 +16,7 @@ git clone -b main https://github.com/RaduPotlog/rover_metapackage.git src/rover_
 
 Real rover:
 
+export ROVER_ROS_BUILD_TYPE=hardware
 
 Simulation:
 
@@ -40,10 +41,26 @@ source install/setup.bash
 
 ### Running
 
+Real rover:
+
+```bash
+ros2 launch rover_bringup rover_bringup.launch.py
+```
+
+Simulation:
+
 ```bash
 ros2 launch rover_gazebo simulation.launch.py
 ```
 
-### Gazebo:
+### Rviz:
 
-![Robot Model](images/rover_gazebo.png)
+Real rover:
+
+![Robot Model](images/rover_real_imu.png.png)
+
+### Gazebo
+
+Simulation:
+
+![Robot Model](images/rover_simulation_imu.png)
