@@ -49,6 +49,10 @@ source install/setup.bash
 ros2 launch rover_bringup rover_bringup.launch.py
 ```
 
+```bash
+ros2 launch rover_description rover_rviz.launch.py
+```
+
 #### Simulation:
 
 ```bash
