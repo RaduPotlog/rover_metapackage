@@ -19,3 +19,8 @@ repositories:
     type: git
     url: https://github.com/RaduPotlog/rover_localization
     version: main
+  rover_diag_manager:
+    type: git
+    url: https://github.com/RaduPotlog/rover_diag_manager
+    version: main
+    
