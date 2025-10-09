@@ -14,4 +14,8 @@ repositories:
   rover_hardware_interface:
     type: git
     url: https://github.com/RaduPotlog/rover_hardware_interface
-    version: main  
+    version: main
+  rover_localization:
+    type: git
+    url: https://github.com/RaduPotlog/rover_localization
+    version: main

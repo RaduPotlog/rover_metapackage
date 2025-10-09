@@ -15,3 +15,7 @@ repositories:
     type: git
     url: https://github.com/RaduPotlog/rover_world
     version: main
+  rover_localization:
+    type: git
+    url: https://github.com/RaduPotlog/rover_localization
+    version: main
