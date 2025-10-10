@@ -1,6 +1,6 @@
 # rover_metapackage
 
-ROS 2 Metapackage composing basic functionalities of the Mechatronics Academy rover with VCS Tool yaml files directing to external rover dependencies.
+ROS 2 Metapackage composing basic functionalities of the Mechatronics Academy Rover with VCS Tool yaml files directing to external Rover's dependencies.
 
 ## Quick start
 
