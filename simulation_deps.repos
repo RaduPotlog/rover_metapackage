@@ -19,3 +19,7 @@ repositories:
     type: git
     url: https://github.com/RaduPotlog/rover_localization
     version: main
+  rover_msgs:
+    type: git
+    url: https://github.com/RaduPotlog/rover_msgs
+    version: main
