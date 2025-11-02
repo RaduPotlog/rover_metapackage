@@ -29,6 +29,8 @@ export ROVER_ROS_BUILD_TYPE=simulation
 ### Build
 
 ```bash
+sudo apt install ros-jazzy-imu-tools
+
 vcs import src < src/rover_metapackage/${ROVER_ROS_BUILD_TYPE}_deps.repos
 
 sudo rosdep init
