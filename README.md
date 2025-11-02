@@ -50,7 +50,7 @@ ros2 launch rover_bringup rover_bringup.launch.py
 ```
 
 ```bash
-sudo apt install 'ros-$ROS_DISTRO-rqt*'
+sudo apt install ros-$ROS_DISTRO-rqt*
 sudo apt install ros-$ROS_DISTRO-imu-tools
 
 ros2 launch rover_description rover_rviz.launch.py
