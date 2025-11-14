@@ -27,4 +27,8 @@ repositories:
     type: git
     url: https://github.com/RaduPotlog/rover_msgs
     version: main
+  rover_web_bridge:
+    type: git
+    url: https://github.com/RaduPotlog/rover_web_bridge
+    version: main  
     
