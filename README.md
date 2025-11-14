@@ -29,8 +29,6 @@ export ROVER_ROS_BUILD_TYPE=simulation
 ### Build
 
 ```bash
-sudo apt install ros-$ROS_DISTRO-imu-tools
-
 vcs import src < src/rover_metapackage/${ROVER_ROS_BUILD_TYPE}_deps.repos
 
 sudo rosdep init
@@ -52,7 +50,12 @@ ros2 launch rover_bringup rover_bringup.launch.py
 ```
 
 ```bash
+sudo apt install ros-$ROS_DISTRO-rqt*
+sudo apt install ros-$ROS_DISTRO-imu-tools
+
 ros2 launch rover_description rover_rviz.launch.py
+
+ros2 run rqt_gui rqt_gui
 ```
 
 #### Simulation:
