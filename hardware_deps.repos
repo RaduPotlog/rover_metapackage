@@ -30,5 +30,8 @@ repositories:
   rover_web_bridge:
     type: git
     url: https://github.com/RaduPotlog/rover_web_bridge
-    version: main  
-    
+    version: main
+  rover_crsf_teleop:
+    type: git
+    url: https://github.com/RaduPotlog/rover_crsf_teleop
+    version: jazzy
